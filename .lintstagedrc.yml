@@ -1,0 +1,9 @@
+# Lint-Staged Config
+
+# NOTE: Run lint-staged setting `--concurrent` to `false`; avoids race conditions.
+# NOTE: Most commands are meant to match hidden and non-hidden files in the staging area.
+
+# Matches files in the git staging area (keys) and applies the commands
+# (values).
+"**/?(.)*": "prettier --ignore-unknown --write" # formats all prettier-supported staged files
+"**/package.json": "sort-package-json" # sorts keys for staged package.json files
