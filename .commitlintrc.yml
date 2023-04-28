@@ -1,0 +1,6 @@
+# Commitlint Configuration
+
+# lists the configurations we're inheriting properties from. Each configuration
+# you extend should be available in node_modules.
+extends:
+  - "@commitlint/config-conventional"
