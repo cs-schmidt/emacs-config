@@ -1,3 +1,5 @@
+<!-- TODO: Finish README file. -->
+
 # Emacs Configuration
 
 <p align="center">A simple and light-weight configuration for GNU Emacs.</p>

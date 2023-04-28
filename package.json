@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "description": "A simple and light-weight configuration for GNU Emacs.",
+  "author": {
+    "name": "Ethan Schmidt",
+    "email": "es.schmidt.cs@gmail.com",
+    "url": "https://cs-schmidt.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS-Schmidt/emacs-config.git"
+  },
+  "homepage": "https://github.com/CS-Schmidt/emacs-config/#readme",
+  "bugs": {
+    "url": "https://github.com/CS-Schmidt/emacs-config/issues",
+    "email": "es.schmidt.cs@gmail.com"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
