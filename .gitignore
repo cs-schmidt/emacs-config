@@ -2,6 +2,7 @@
 **/node_modules/
 
 # Emacs ignores.
-elpa/
 auto-save-list/
-
+history
+# NOTE: Remove straight dir ignore later.
+straight/
