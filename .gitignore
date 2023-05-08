@@ -1,2 +1,7 @@
 # Node ignores.
 **/node_modules/
+
+# Emacs ignores.
+elpa/
+auto-save-list/
+
