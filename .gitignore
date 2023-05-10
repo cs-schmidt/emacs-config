@@ -4,5 +4,9 @@
 # Emacs ignores.
 auto-save-list/
 history
-# NOTE: Remove straight dir ignore later.
+# NOTE: Remove straight dir ignore when you decide to generate lock files.
 straight/
+.cache/
+org-roam.db
+projectile-bookmarks.eld
+.org-id-locations
